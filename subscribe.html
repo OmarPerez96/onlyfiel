@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe - OnlyFiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="dashboard.html" class="text-2xl font-bold text-gray-800">OnlyFiel</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="dashboard.html" class="text-gray-600 hover:text-gray-900">Dashboard</a>
+                    <div class="relative">
+                        <button class="flex items-center text-gray-600 hover:text-gray-900">
+                            <img class="h-8 w-8 rounded-full" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Profile">
+                            <span class="ml-2">Jane Doe</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">Choose Your Subscription Plan</h1>
+            <p class="text-lg text-gray-600">Get access to exclusive relationship stories and expert advice</p>
+        </div>
+
+        <!-- Subscription Plans -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <!-- Basic Plan -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="px-6 py-8">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Basic Access</h3>
+                    <div class="flex items-baseline mb-8">
+                        <span class="text-4xl font-bold text-gray-900">$4.99</span>
+                        <span class="text-gray-500 ml-2">/month</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Access to public stories</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Basic community features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Comment on stories</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition duration-300">
+                        Select Basic Plan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-blue-500 transform scale-105">
+                <div class="bg-blue-500 text-white text-center py-2 text-sm font-semibold">
+                    MOST POPULAR
+                </div>
+                <div class="px-6 py-8">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Premium Access</h3>
+                    <div class="flex items-baseline mb-8">
+                        <span class="text-4xl font-bold text-gray-900">$9.99</span>
+                        <span class="text-gray-500 ml-2">/month</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">All Basic features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Exclusive premium content</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Ad-free experience</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Priority support</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Select Premium Plan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="px-6 py-8">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Pro Access</h3>
+                    <div class="flex items-baseline mb-8">
+                        <span class="text-4xl font-bold text-gray-900">$19.99</span>
+                        <span class="text-gray-500 ml-2">/month</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">All Premium features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">1-on-1 consultation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Advanced analytics</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Early access to features</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition duration-300">
+                        Select Pro Plan
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Information -->
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Payment Information</h2>
+            <form>
+                <!-- Card Information -->
+                <div class="mb-6">
+                    <label for="card-number" class="block text-sm font-medium text-gray-700 mb-2">
+                        Card Number
+                    </label>
+                    <input type="text" id="card-number" 
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="1234 5678 9012 3456">
+                </div>
+
+                <div class="grid grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="expiry" class="block text-sm font-medium text-gray-700 mb-2">
+                            Expiry Date
+                        </label>
+                        <input type="text" id="expiry" 
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="MM/YY">
+                    </div>
+                    <div>
+                        <label for="cvc" class="block text-sm font-medium text-gray-700 mb-2">
+                            CVC
+                        </label>
+                        <input type="text" id="cvc" 
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="123">
+                    </div>
+                </div>
+
+                <!-- Billing Information -->
+                <div class="mb-6">
+                    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">
+                        Name on Card
+                    </label>
+                    <input type="text" id="name" 
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="John Doe">
+                </div>
+
+                <div class="mb-6">
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                        Email
+                    </label>
+                    <input type="email" id="email" 
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="john@example.com">
+                </div>
+
+                <!-- Terms -->
+                <div class="mb-6">
+                    <label class="flex items-center">
+                        <input type="checkbox" class="rounded text-blue-600 focus:ring-blue-500">
+                        <span class="ml-2 text-sm text-gray-600">
+                            I agree to the 
+                            <a href="#" class="text-blue-600 hover:text-blue-500">Terms of Service</a>
+                            and
+                            <a href="#" class="text-blue-600 hover:text-blue-500">Privacy Policy</a>
+                        </span>
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" 
+                    class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                    Complete Purchase
+                </button>
+
+                <!-- Security Notice -->
+                <p class="text-sm text-gray-500 text-center mt-4">
+                    <i class="fas fa-lock mr-2"></i>
+                    Your payment information is secure and encrypted
+                </p>
+            </form>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="max-w-3xl mx-auto mt-16">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">How does billing work?</h3>
+                    <p class="text-gray-600">Your subscription will be automatically renewed each month. You can cancel at any time from your account settings.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">Can I change plans later?</h3>
+                    <p class="text-gray-600">Yes, you can upgrade or downgrade your plan at any time. The change will be reflected in your next billing cycle.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">Is there a refund policy?</h3>
+                    <p class="text-gray-600">We offer a 30-day money-back guarantee if you're not satisfied with our service.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 mt-12">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-base text-gray-400">
+                &copy; 2024 OnlyFiel. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
